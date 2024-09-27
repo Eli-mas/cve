@@ -14,6 +14,3 @@ Features of interest:
 * Provides functionality to provide updates at a specified time interval to the terminal to update on progress.
 * If a request for a given URL fails, the scraper examines the [HTTP response status code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes), and on this basis decides whether it can retry the URL. If not, the page is marked as unsuccessful; if so, a maximum number of retries is imposed, and if the page is attempted and failed this number of times, it is then marked as unsuccessful.
 * If the relevant option is enabled, the scraper periodically stores results to disk in the event the scraper shuts down unexpectedly, and it is able to figure out where it left off and resume at that point.
-* Adds command-line functionality to specify options for scraping.
-
-Updates to come as I generalize the functionality of these scripts.
